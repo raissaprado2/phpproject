@@ -31,6 +31,10 @@ return [
 
     'connections' => [
 
+    // Outras configurações...
+],
+
+
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DB_URL'),
@@ -112,7 +116,7 @@ return [
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
 
-    ],
+
 
     /*
     |--------------------------------------------------------------------------
