@@ -8,10 +8,10 @@ use Illuminate\Http\Request;
 class ProjetoController extends Controller
 {
     // Construtor para aplicar middleware de autenticação
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
 
     // Mostrar uma lista de projetos
     public function index()
